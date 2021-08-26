@@ -1,0 +1,12 @@
+<!--pages/upload/index.wxml-->
+<view class="container">
+  <!-- 图片 -->
+  <view class="user-info">
+    <image src="{{avatar}}" class="avatar-image"></image>
+    <text class="nickname">{{nickname}}</text>
+  </view>
+  <view  class="button-list">
+    <button type="primary" bindtap="handleUpload">上传头像和昵称</button>
+    <button style="margin-top: 30rpx;" bindtap="handleMore">更多</button>
+  </view>
+</view>

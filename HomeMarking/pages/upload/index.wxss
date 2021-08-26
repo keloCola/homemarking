@@ -1,0 +1,19 @@
+/* pages/upload/index.wxss */
+.user-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30%;
+}
+.avatar-image{
+  width: 240rpx;
+  height: 240rpx;
+  border-radius: 50%;
+}
+.nickname{
+  margin-top: 30rpx;
+  font-size: 40rpx;
+}
+.button-list{
+  margin-top: 60rpx;
+}
